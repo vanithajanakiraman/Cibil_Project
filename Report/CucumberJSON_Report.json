@@ -1,0 +1,99 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 24020000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step_Definition.before_Hooks(Scenario)"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "CibilScore",
+        "description": "",
+        "id": "get-cibil-report-and-score;cibilscore",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8000503600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user Launch The Application Url",
+            "match": {
+              "location": "Step_Definition.user_Launch_The_Application_Url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 185349800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user Need To Click The Cibil Report And Score",
+            "match": {
+              "location": "Step_Definition.user_Need_To_Click_The_Cibil_Report_And_Score()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 30200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user Either To Click The Options Premium Of One Year",
+            "match": {
+              "location": "Step_Definition.user_Either_To_Click_The_Options_Premium_Of_One_Year()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 22900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user Either To Click The Options Standard Of Six Month",
+            "match": {
+              "location": "Step_Definition.user_Either_To_Click_The_Options_Standard_Of_Six_Month()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10079788200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user Either To Click The Options Basic Of One Month And Move To Create Account or Get Login",
+            "match": {
+              "location": "Step_Definition.user_Either_To_Click_The_Options_Basic_Of_One_Month_And_Move_To_Create_Account_or_Get_Login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@SmokeTest"
+          }
+        ]
+      }
+    ],
+    "name": "Get Cibil Report And Score",
+    "description": "",
+    "id": "get-cibil-report-and-score",
+    "keyword": "Feature",
+    "uri": "Cibil.feature"
+  }
+]
